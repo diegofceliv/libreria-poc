@@ -24,7 +24,7 @@
       "dom"
     ],
     "paths": {
-      "utils": [
+      "@utils": [
         "./dist/utils"
       ]
     }
