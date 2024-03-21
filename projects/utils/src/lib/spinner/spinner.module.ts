@@ -1,11 +1,10 @@
 import { NgModule } from "@angular/core";
 import { SpinnerComponent } from "./spinner.component";
-import { CommonModule } from "@angular/common";
 import { SpinnerService } from "./spinner.service";
 
 @NgModule({
     declarations: [SpinnerComponent],
-    imports: [CommonModule],
+    imports: [],
     exports: [SpinnerComponent],
     providers: [SpinnerService]
 })
